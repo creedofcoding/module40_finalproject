@@ -1,0 +1,66 @@
+/* @font-face {
+	font-family: "FERRY";
+	src: local("FERRY") url("../../fonts/FERRY/ferry.otf") format("truetype");
+	font-weight: bold;
+} */
+.font_ferry {
+	font-family: "FERRY";
+	text-align: left;
+}
+.div_main {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1322px;
+	max-height: 585px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+@media screen and (max-width: 1370px) {
+	.div_main {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.div_main {
+		flex-direction: column;
+		max-height: max-content;
+	}
+}
+.div_image {
+	margin-left: 110px;
+}
+.div_right {
+	align-self: end;
+	bottom: 0;
+}
+.div_left {
+}
+@media screen and (max-width: 1464px) {
+	.div_text {
+		width: 95%;
+	}
+}
+@media screen and (max-width: 1360px) {
+	.div_text {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1145px) {
+	.div_left {
+		text-align: center;
+		padding-bottom: 100px;
+	}
+	.font_ferry {
+		text-align: center;
+	}
+	.div_right {
+		margin: auto;
+	}
+}
+@media screen and (max-width: 700px) {
+	.div_image {
+		margin: 0 auto;
+	}
+}

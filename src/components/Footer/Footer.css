@@ -1,0 +1,57 @@
+@font-face {
+	font-family: "Inter";
+	src: url("Inter-Regular.otf");
+}
+
+.foot {
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	height: 137px;
+	width: 100%;
+	background: #029491;
+	padding-right: 45px;
+	padding-left: 60px;
+}
+
+.Logo {
+	width: 125px;
+	height: 125px;
+}
+
+.foot_text {
+	font-family: "Inter";
+	text-align: right;
+	color: white;
+	font-size: 14px;
+}
+.content_footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center; /* Добавлено для вертикального выравнивания */
+}
+
+@media screen and (max-width: 600px) {
+	footer {
+		padding-right: 10px;
+		padding-left: 20px;
+	}
+
+	.Logo {
+		width: 111px;
+		height: 111px;
+		left: 18px;
+		top: -12px;
+	}
+
+	.foot_text {
+		margin-right: 15px;
+		margin-top: 15px;
+		font-size: 11px;
+	}
+}

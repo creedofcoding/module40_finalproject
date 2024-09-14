@@ -1,0 +1,68 @@
+.header_main {
+	display: flex;
+	max-width: 1440px;
+	height: max-content;
+}
+
+.left-part {
+	display: flex;
+	flex-direction: column;
+	max-width: 743px;
+	text-align: left;
+	max-height: 490px;
+}
+
+.size60 {
+	text-align: left;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 72px;
+	letter-spacing: 0.01em;
+	margin-bottom: 26px;
+}
+
+.size20 {
+	/* Комплексный анализ публикаций, получение данных в формате PDF на электронную почту. */
+	margin: 26px 0px 85px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 1000px) {
+	.header_main {
+		flex-direction: column;
+	}
+	.left-part {
+		/* padding: 25px; */
+	}
+	.image {
+		width: 90%;
+		height: 90%;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 860px) {
+	.header_main {
+		/* margin-bottom: -100px !important; */
+	}
+}
+@media screen and (max-width: 840px) {
+	.header_main {
+		margin-bottom: -500px !important;
+	}
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 450px) {
+	.fsz {
+		font-size: 28px !important; /* сервис по поиску публикаций о компании по его ИНН */
+		line-height: 34px !important;
+		letter-spacing: 0.01em !important;
+	}
+}

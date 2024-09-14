@@ -1,0 +1,35 @@
+.left {
+	justify-content: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.span_div {
+	padding: 0 10px;
+	background: #ffb64f;
+	border-radius: 10px;
+	display: inline-flex;
+	height: 20px;
+	justify-content: center;
+    align-items: center;
+}
+
+.a_div{
+	text-decoration: none;
+	color:black;
+}
+.left{
+	text-align: left;
+}
+@media screen and (max-width: 1400px) {
+	.flex {
+        flex-wrap: wrap; /* Позволяет переносить элементы на новую строку, если не помещаются */
+    }
+}

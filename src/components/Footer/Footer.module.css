@@ -1,0 +1,46 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;    
+    width: 100%;
+    padding-top:20px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 25px 0;
+}
+
+.footerText p {
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: right;
+    line-height: 0.2;
+    margin: 8px 0;
+}
+
+.footerText p:last-child {
+    margin-top: 21px;
+}
+
+.footerImage {
+    display: block;
+    position: relative;
+    width: 121px;
+}
+
+.footerImage > img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -15px;
+    
+}

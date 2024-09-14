@@ -1,0 +1,18 @@
+:root {
+    --colorOrange: #FFB64F;
+    --colorBlue: #7CE3E1;
+    --colorBlack: #000000;
+  }
+
+
+.cards {
+    display: flex; 
+    justify-content: left;
+}
+
+@media screen and (max-width: 1400px) {
+	.cards {
+    display: flex; 
+		flex-direction: column;
+	}
+}

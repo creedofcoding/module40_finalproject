@@ -1,0 +1,47 @@
+.header_rates{
+    text-align: left;
+    margin-left:-20px;
+    margin-top:-20px;
+    padding-bottom:20px;
+    display: flex;
+    justify-content: flex-start;
+    height: 132px;
+    width: 425px;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top{
+    margin-top: 20px;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+    margin-top: 10px;
+    justify-content: left;
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    margin-bottom: 40px;
+    justify-content: left;
+}
+
+.li_div{
+    margin-left: 5px;
+}
+
+.current_tarif{
+    text-align: left;
+}
+
+.span_tarif {
+	padding: 10px 10px;
+	background:#3BA5E0;
+    width: 134px;
+    border-radius:"10px";
+}

@@ -1,0 +1,205 @@
+button.login_btn:hover, button.register_btn:hover {
+	box-shadow: none;
+}
+
+.form {
+	/* позиционирование указано для правильного расположения замочка */
+	position: relative;
+	/* для удобного управления дочерними элементами */
+	display: flex;
+	flex-direction: column;
+	/* распределение элементов по всей высоте родительского блока */
+	justify-content: space-between;
+	/* расположение элементов по центру */
+	text-align: center;
+	width: 429px;
+	height: 523px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c7c7c7;
+	box-shadow: 2px 2px 15px 0px #c7c7c7;
+	border-radius: 10px;
+	margin: 0 auto;
+	/* внутренние отступы для формы по макету */
+	padding: 26px;
+}
+
+.form_auth_text {
+	/* раположение названий форм по макету возле левого края*/
+	text-align: left;
+	font-family: "Inter";
+	font-size: 16px;
+	color: #949494;
+}
+
+button {
+	border: none;
+	outline: none;
+	background-color: white;
+	cursor: pointer;
+	padding: 2px;
+	/* margin: 0 auto; повторяющий text-align: center; из стилей форм стиль для расположения элемента по центру */
+}
+
+.return_passw {
+	font-family: "Inter";
+	font-size: 16px;
+	color: #5970ff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+/* при указании внутренних отступов для формы поле ввода займет ширину формы исключая padding */
+input {
+	width: 100%;
+	height: 43px;
+	border-style: solid;
+	border-color: #c7c7c7;
+	border-radius: 5px;
+	border-width: 1px;
+}
+
+.logos {
+	/* display: flex;
+	justify-content: flex-start; */
+	display: inline;
+	/* flex-direction: column; */
+
+	/* margin-left: 25px; - лишний стиль (при наличии отступов формы) */
+}
+/* стили для контейнера с кнопками соцсетей */
+
+.head {
+	font-family: "Inter";
+	margin: 0 auto;
+	font-size: 16px;
+	display: grid;
+	grid-template-columns: 151px 213px;
+	/* удалены, потому что отступы становиться автоматическими и связанными со стилем формы justify-content: space-between;
+	margin-top: 15px; 
+	margin-bottom: 50px; */
+	cursor: pointer;
+}
+
+.el-1 {
+	color: #029491;
+}
+
+.el-2 {
+	color: #949494;
+	text-align: right;
+}
+
+.line {
+	margin-top: 10px;
+}
+
+.line-1 {
+	width: 140px;
+	margin-left: 10px;
+	border-top: 3px solid #029491;
+}
+
+.line-2 {
+	width: 213px;
+	border-top: 3px solid #949494;
+	margin-left: 20px;
+}
+/* позиционирование ключа */
+.lck {
+	position: absolute;
+	left: -60px;
+	top: -50px;
+}
+/* отступы для центральной кнопки соцсетей */
+.mr {
+	margin: 0 10px;
+}
+@media screen and (max-width: 640px) {
+	.form {
+		width: 350px;
+	}
+	.el-1 {
+		width: 100px;
+	}
+	.el-2 {
+		text-align: center;
+		width: 170px;
+	}
+	.line-1 {
+		width: 100%;
+	}
+	.line-2 {
+		width: 100%;
+	}
+	.el-2 {
+		text-align: center;
+	}
+	.head {
+		display: flex;
+		border: 1px solid;
+	}
+}
+@media screen and (max-width: 540px) {
+	.form {
+		width: 350px;
+	}
+	.mr {
+		margin: 0 5px;
+	}
+	.line-2 {
+		width: 130px;
+	}
+	.el-2 {
+		margin-right: 40px;
+	}
+	.el {
+		font-size: 11px;
+	}
+	.form_auth_text {
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 1360px) {
+	.lck {
+		position: absolute;
+		left: 60px;
+		top: -80px;
+	}
+}
+@media screen and (max-width: 490px) {
+	.form {
+		width: 350px;
+	}
+	.mr {
+		margin: 0 5px;
+	}
+	.line-2 {
+		width: 130px;
+	}
+	.line-1 {
+		width: 70px;
+	}
+	.el-1 {
+		margin: 0 auto;
+	}
+	.el-2 {
+		margin-right: 40px;
+	}
+	.el {
+		font-size: 11px;
+	}
+	.form_auth_text {
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 490px) {
+	.form {
+		width: 300px;
+	}
+	.mr {
+		margin: 0;
+	}
+	.form {
+		padding: 15px;
+	}
+}

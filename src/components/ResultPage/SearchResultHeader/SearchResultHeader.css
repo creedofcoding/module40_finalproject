@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    width: 40%;
+    text-align: left;
+}
+
+.image_div{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+@media screen and (max-width: 1400px) {
+    .text{
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.image_div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1400px) {
+  .text {
+    width: 100%;
+    text-align: left;
+  }
+}

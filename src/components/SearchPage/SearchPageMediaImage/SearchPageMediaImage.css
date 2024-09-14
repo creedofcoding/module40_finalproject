@@ -1,0 +1,31 @@
+.my-guy {
+	
+	right: 40px;
+	
+	width: 397px;
+	height: 476px;
+	background: cover;
+	align-self: end;
+	margin: 0 auto;
+}
+.my-document {
+	margin-right: 40px;
+	left: 90px;
+	bottom: 40px;
+	width: 102px;
+	height: 117px;
+}
+.my-folders {
+	margin-left: 20px;
+	left: 240px;
+	top: -120px;
+	width: 140px;
+	height: 68px;
+}
+.container-images {
+	position: relative;
+	align-items: end;
+}
+.container-images-items{
+	display: flex;
+}
